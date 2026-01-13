@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Aaron Metabolic Center | Nobel Prize Science</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1129485489085367');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Meta Pixel Code -->
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @keyframes pulse-red {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    .animate-pulse-slow {
+      animation: pulse-red 2s infinite;
+    }
+
+    @keyframes fade-in-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in {
+      animation: fade-in-up 0.6s ease-out forwards;
+    }
+
+    .medical-shadow {
+      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 4px 12px -4px rgba(0, 0, 0, 0.03);
+    }
+
+    .page-container {
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 90%;
+    }
+
+    @media (min-width: 768px) {
+      .page-container {
+        width: 80%;
+      }
+    }
+
+    .chat-bubble-in {
+      border-radius: 18px 18px 18px 4px;
+    }
+
+    .gradient-blue {
+      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    }
+  </style>
+
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-white text-slate-900 overflow-x-hidden">
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1129485489085367&ev=PageView&noscript=1" /></noscript>
+  <div id="root"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
